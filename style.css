@@ -27,119 +27,40 @@ html {
     src: url(Fonts/Petty\ Despot\ NF\ W01\ Regular.ttf);
 }
 
-/* .navBar {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0.2rem;
-    overflow: hidden;
+.navbar {
     background-color: transparent;
-    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
-    font-family: Inter;
-    justify-content: space-between;
 }
 
-.navElement {
-    float: left;
+.nav-padding {
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-#logoContainer {
-    display: flex;
-    align-items: center;
-}
-
-.navLogo {
-    height: 5rem;
-    width: auto;
-    display: block;
-    color: #2C2C2C;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navTitle {
-    display: block;
-    color: #2C2C2C;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navLink {
-    display: block;
-    color: #2C2C2C;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #989898;
-}
-
-#hamburgerMenu {
-    font-size: 1.5rem;
-    display: block;
-    align-items: center;
-    color: #2C2C2C;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#hamburgerMenu:hover {
-    background-color: #989898;
-}
-
-.moblieNavBar {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
+.nav-link {
+    color: white;
+    font-family: inter;
+    font-size: 2rem;
+    font-weight: bold;
     padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Inter;
-    display: none;
 }
 
-@media (width < 768px) {
-    #desktopLinks {
-        display: none;
-    }
-
-    #hamburgerMenu {
-        display: initial;
-    }
+.nav-item {
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20rem;
+    background-color: #f63142;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
-@media (width > 768px) {
-    #desktopLinks {
-        display: initial;
-    }
-
-    #hamburgerMenu {
-        display: none;
-    }
-
-    #mobile-nav {
-        display: none;
-    }
-
-    #moblieLinks {
-        display: none;
-    }
+.navbar-brand {
+    color: white;
+    font-family: inter;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-
-#mobileLinks {
-    display: none;
-}
-
-.moblieNavLink {
-    color: #2C2C2C;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-} */
 
 .topBanner {
     display: flex;
@@ -157,7 +78,7 @@ h1 {
 
 .parallax {
     /* The image used */
-    background-image: url("Images/image_fx_diversity_between_people_colourful_adobe_phot.jpg");
+    background-image: url("Images/Banner.png");
 
     /* Set a specific height */
     min-height: 500px;
@@ -180,4 +101,48 @@ h3 {
     font-family: Petty;
     font-size: 4vw;
     color: #f3e4dd;
+    margin-block-end: 0rem;
+}
+
+#image-section-1 {
+    background-image: url(Images/image-section-1.png);
+    padding: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4 {
+    font-family: Petty;
+    font-size: 3vw;
+    color: #f3e4dd;
+    margin-block-end: 0rem;
+}
+
+#paper-background {
+    background-image: url(Images/redCardPaper.jpg);
+    padding: 5rem;
+}
+
+#square-image-1 {
+    background-image: url(Images/moviePosterStyle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 17.68rem;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-styling {
+    max-width: 30rem;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+.padding-container {
+    padding: 3rem;
 }
