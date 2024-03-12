@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Incised;
+    src: url(Fonts/Incised901\ Ct\ BT\ Compact.ttf);
+}
+
+@font-face {
+    font-family: Petty;
+    src: url(Fonts/Petty\ Despot\ NF\ W01\ Regular.ttf);
+}
+
+/* .navBar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.2rem;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    font-family: Inter;
+    justify-content: space-between;
+}
+
+.navElement {
+    float: left;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navLogo {
+    height: 5rem;
+    width: auto;
+    display: block;
+    color: #2C2C2C;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navTitle {
+    display: block;
+    color: #2C2C2C;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLink {
+    display: block;
+    color: #2C2C2C;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #989898;
+}
+
+#hamburgerMenu {
+    font-size: 1.5rem;
+    display: block;
+    align-items: center;
+    color: #2C2C2C;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#hamburgerMenu:hover {
+    background-color: #989898;
+}
+
+.moblieNavBar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: Inter;
+    display: none;
+}
+
+@media (width < 768px) {
+    #desktopLinks {
+        display: none;
+    }
+
+    #hamburgerMenu {
+        display: initial;
+    }
+}
+
+@media (width > 768px) {
+    #desktopLinks {
+        display: initial;
+    }
+
+    #hamburgerMenu {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: none;
+    }
+
+    #moblieLinks {
+        display: none;
+    }
+}
+
+#mobileLinks {
+    display: none;
+}
+
+.moblieNavLink {
+    color: #2C2C2C;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+} */
+
+.topBanner {
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+h1 {
+    font-family: Incised;
+    color: #f3e4dd;
+    font-size: 8vw;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Images/image_fx_diversity_between_people_colourful_adobe_phot.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quoteText {
+    padding: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-color: #f63142;
+}
+
+h3 {
+    font-family: Petty;
+    font-size: 4vw;
+    color: #f3e4dd;
+}
