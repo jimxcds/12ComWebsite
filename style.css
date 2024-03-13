@@ -45,6 +45,10 @@ html {
     padding: 0;
 }
 
+.nav-link:hover {
+    color: rgb(163, 163, 163);
+}
+
 .nav-item {
     border: solid;
     border-color: white;
@@ -132,6 +136,10 @@ h4 {
     padding: 17.68rem;
 }
 
+.row {
+    margin: auto;
+}
+
 .image-container {
     display: flex;
     align-items: center;
@@ -143,6 +151,29 @@ h4 {
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
 }
 
-.padding-container {
-    padding: 3rem;
+.nav-background {
+    background-color: #f63142;
+}
+
+.nav-padding {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+.nav-text {
+    font-family: Incised;
+    color: #f3e4dd;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.nav-text:hover {
+    color: #a59c98;
+}
+
+.nav-list {
+    list-style-type: none;
 }
