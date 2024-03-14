@@ -75,31 +75,27 @@ html {
 }
 
 .nav-link {
+
     color: white;
     font-family: inter;
     font-size: 2rem;
     font-weight: bold;
     padding: 0;
     transition: all ease-in-out 250ms;
-}
 
-.nav-item {
     border: solid;
     border-color: white;
     border-width: 5px;
     border-radius: 20rem;
     background-color: var(--Diversity-Red);
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
     transition: all ease-in-out 250ms;
 }
 
-.nav-item:hover {
+.nav-link:hover {
     background-color: white;
-
-    .nav-link {
-        color: var(--Diversity-Red);
-    }
+    color: var(--Diversity-Red);
 }
 
 .nav-background {
@@ -118,7 +114,7 @@ html {
 .nav-text {
     font-family: Incised;
     color: #f3e4dd;
-    font-size: 7rem;
+    font-size: 5.5rem;
     text-decoration: none;
     transition: all ease-in-out 250ms;
 }
@@ -175,7 +171,7 @@ h3 {
 
 #image-section-1 {
     background-image: url(Images/image-section-1.png);
-    padding: 30rem;
+    padding-bottom: 50rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,12 +208,11 @@ h4 {
 }
 
 .image-styling {
-    max-width: 30rem;
+    max-width: 30vw;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .nav-image-styling {
-    width: 40rem;
+    width: 30rem;
     filter: invert(91%) sepia(2%) saturate(1995%) hue-rotate(320deg) brightness(105%) contrast(91%);
 }
-
