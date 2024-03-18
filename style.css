@@ -155,6 +155,20 @@ h1 {
     background-size: cover;
 }
 
+.parallax-1 {
+    /* The image used */
+    background-image: url("Images/faces.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .quoteText {
     padding: 5rem;
     padding-top: 15rem;
