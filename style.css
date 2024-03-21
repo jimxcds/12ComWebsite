@@ -113,14 +113,42 @@ html {
 
 .nav-text {
     font-family: Incised;
-    color: #f3e4dd;
+    color: #f3e4dd00;
     font-size: 5.5rem;
     text-decoration: none;
     transition: all ease-in-out 250ms;
+    animation: slideFade 0.5s ease forwards;
+}
+
+#nav-text-2 {
+    animation-delay: 125ms;
+}
+
+#nav-text-3 {
+
+    animation-delay: 250ms;
+}
+
+#nav-text-4 {
+    animation-delay: 375ms;
+}
+
+@keyframes slideFade {
+    0% {
+        padding-left: 7rem;
+        color: #f3e4dd00;
+    }
+
+    70% {}
+
+    100% {
+        padding-left: 0rem;
+        color: #f3e4dd;
+    }
 }
 
 .nav-text:hover {
-    color: rgba(255, 255, 255, 0.7);
+    color: #f3e4dd7e;
 }
 
 .nav-list {
@@ -129,7 +157,8 @@ html {
 
 .topBanner {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: start;
     padding-left: 5rem;
     padding-top: 15rem;
     padding-bottom: 15rem;
@@ -139,6 +168,28 @@ h1 {
     font-family: Incised;
     color: #f3e4dd;
     font-size: 8vw;
+    animation: SlideUpFade 0.5s ease forwards;
+}
+
+h2 {
+    font-family: Incised;
+    color: #f3e4dd00;
+    font-size: 3vw;
+    padding-left: 0.4rem;
+    animation: SlideUpFade 0.5s ease forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes SlideUpFade {
+    0% {
+        transform: translateY(100px);
+        color: #f3e4dd00;
+    }
+
+    100% {
+        transform: translateY(0px);
+        color: #f3e4dd;
+    }
 }
 
 .parallax {
@@ -176,23 +227,33 @@ h1 {
     background-color: var(--Diversity-Red);
 }
 
-/* #firstTextBox{
-    top: -400px;
-    animation: drop 0.5s ease forwards;
-}
-
-@keyframes drop {
-    0%{opacity: 0;}
-    70%{}
-    100%{opacity: 1;}
-} */
-
 h3 {
     font-family: Petty;
     font-size: 4vw;
-    color: #f3e4dd;
+    color: #f3e4dd00;
     margin-block-end: 0rem;
 }
+
+.textBoxAnimation {
+    color: #f3e4dd00;
+    top: -400px;
+    animation: drop 1s ease forwards;
+}
+
+@keyframes drop {
+    0% {
+        padding-top: 20rem;
+        color: #f3e4dd00;
+    }
+
+    70% {}
+
+    100% {
+        padding-top: 15rem;
+        color: #f3e4dd;
+    }
+}
+
 
 #image-section-1 {
     background-image: url(Images/image-section-1.webp);
