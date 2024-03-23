@@ -206,20 +206,6 @@ h2 {
     background-size: cover;
 }
 
-.parallax-1 {
-    /* The image used */
-    background-image: url("Images/faces.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .quoteText {
     padding: 5rem;
     padding-top: 15rem;
@@ -301,4 +287,64 @@ h4 {
 .nav-image-styling {
     width: 30rem;
     filter: invert(91%) sepia(2%) saturate(1995%) hue-rotate(320deg) brightness(105%) contrast(91%);
+}
+
+/* advantages page starts here! */
+
+.parallax-1 {
+    /* The image used */
+    background-image: url("Images/advantagesBanner.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image-section-2 {
+    background-image: url(Images/UnityInDiversity2.webp);
+    padding-bottom: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    mask-image: linear-gradient(to bottom, black 55%, rgba(0, 0, 0, 0) 90%);
+}
+
+.starBackground {
+    /* The image used */
+    background-image: url("Images/SpaceBackground.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breakUpConatiner {
+    padding: 5vw;
+    padding-top: 10vw;
+}
+
+.smallHeading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.smallInfoRow {
+    padding: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+.smallInfoText {
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
 }
