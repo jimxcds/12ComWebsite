@@ -345,6 +345,23 @@ h4 {
 }
 
 .smallInfoText {
+    padding: 0rem;
     color: rgb(255, 255, 255);
     font-size: 2.5vw;
+}
+
+/* kaitiakitanga page start here! */
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("Images/ThirdBanner.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
