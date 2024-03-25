@@ -63,8 +63,13 @@
 
     /* advantages page */
 
+    .smallInfoRow {
+        padding: 3rem;
+    }
+
     .smallInfoText {
         font-size: 5vw;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
