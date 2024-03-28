@@ -14,6 +14,10 @@ html {
     --Diversity-Red: #f63142;
 }
 
+.turnOffScroll {
+    overflow: hidden;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -433,6 +437,46 @@ p {
 
 #image-section-3 {
     background-image: url(Images/CloudsUnityInDiversity.webp);
+    padding-bottom: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    mask-image: linear-gradient(to bottom, black 55%, rgba(0, 0, 0, 0) 90%);
+}
+
+/* woman in IT page starts here! */
+
+.parallax-3 {
+    /* The image used */
+    background-image: url("Images/bannerOfWoman.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caveBackground {
+    /* The image used */
+    background-image: url("Images/CaveBackground.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image-section-4 {
+    background-image: url(Images/RollingHillsUnityInDiversity.webp);
     padding-bottom: 50rem;
     background-position: center;
     background-repeat: no-repeat;
