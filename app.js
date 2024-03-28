@@ -23,6 +23,25 @@ const observer = new IntersectionObserver((entries) => {
 const quoteText = document.querySelectorAll('.quoteText');
 quoteText.forEach((el) => observer.observe(el));
 
+// Back to top button
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.right = "30px";
+  } else {
+    mybutton.style.right = "-100px";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 // let options = {
 //   // null is to target document viewport
 //   root: null,

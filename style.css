@@ -1,3 +1,5 @@
+/* set up */
+
 html {
     scroll-behavior: smooth;
 }
@@ -30,6 +32,35 @@ html {
     font-family: Petty;
     src: url(Fonts/Petty\ Despot\ NF\ W01\ Regular.ttf);
 }
+
+/* back to top button */
+
+#myBtn {
+    font-family: petty;
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--Diversity-Red);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 5px;
+    transition: 0.3s;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color: var(--Diversity-Red);
+}
+
+/* navbar */
 
 .navbar {
     background-color: transparent;
@@ -114,7 +145,7 @@ html {
 .nav-text {
     font-family: Incised;
     color: #f3e4dd00;
-    font-size: 5.5rem;
+    font-size: 5.5vw;
     text-decoration: none;
     transition: all ease-in-out 250ms;
     animation: slideFade 0.5s ease forwards;
@@ -154,6 +185,8 @@ html {
 .nav-list {
     list-style-type: none;
 }
+
+/* home page */
 
 .topBanner {
     display: flex;
@@ -285,8 +318,26 @@ h4 {
 }
 
 .nav-image-styling {
-    width: 30rem;
+    width: 30vw;
     filter: invert(91%) sepia(2%) saturate(1995%) hue-rotate(320deg) brightness(105%) contrast(91%);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.footerContainer {
+    font-size: 1.2rem;
+    padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--Diversity-Red);
+}
+
+.footerText {
+    font-family: petty;
+    color: #f3e4dd;
+    background-color: var(--Diversity-Red);
 }
 
 /* advantages page starts here! */
@@ -364,4 +415,28 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.forestBackground {
+    /* The image used */
+    background-image: url("Images/forestBackground.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image-section-3 {
+    background-image: url(Images/CloudsUnityInDiversity.webp);
+    padding-bottom: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    mask-image: linear-gradient(to bottom, black 55%, rgba(0, 0, 0, 0) 90%);
 }
