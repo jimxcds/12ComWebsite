@@ -24,17 +24,17 @@ html {
 
 @font-face {
     font-family: Inter;
-    src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
     font-family: Incised;
-    src: url(Fonts/Incised901\ Ct\ BT\ Compact.ttf);
+    src: url(../Fonts/Incised901\ Ct\ BT\ Compact.ttf);
 }
 
 @font-face {
     font-family: Petty;
-    src: url(Fonts/Petty\ Despot\ NF\ W01\ Regular.ttf);
+    src: url(../Fonts/Petty\ Despot\ NF\ W01\ Regular.ttf);
 }
 
 /* back to top button */
@@ -231,7 +231,7 @@ h2 {
 
 .parallax {
     /* The image used */
-    background-image: url("Images/Banner.webp");
+    background-image: url("../Images/Banner.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -279,7 +279,7 @@ h3 {
 
 
 #image-section-1 {
-    background-image: url(Images/image-section-1.webp);
+    background-image: url(../Images/image-section-1.webp);
     padding-bottom: 50rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -294,12 +294,12 @@ h4 {
 }
 
 #paper-background {
-    background-image: url(Images/redCardPaper.webp);
+    background-image: url(../Images/redCardPaper.webp);
     padding: 5rem;
 }
 
 #square-image-1 {
-    background-image: url(Images/moviePosterStyle.jpg);
+    background-image: url(../Images/moviePosterStyle.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,7 +348,7 @@ p {
 
 .parallax-1 {
     /* The image used */
-    background-image: url("Images/advantagesBanner.webp");
+    background-image: url("../Images/advantagesBanner.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -361,7 +361,7 @@ p {
 }
 
 #image-section-2 {
-    background-image: url(Images/UnityInDiversity2.webp);
+    background-image: url(../Images/UnityInDiversity2.webp);
     padding-bottom: 60rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -372,7 +372,7 @@ p {
 
 .starBackground {
     /* The image used */
-    background-image: url("Images/SpaceBackground.webp");
+    background-image: url("../Images/SpaceBackground.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -409,7 +409,7 @@ p {
 
 .parallax-2 {
     /* The image used */
-    background-image: url("Images/ThirdBanner.webp");
+    background-image: url("../Images/ThirdBanner.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -423,7 +423,7 @@ p {
 
 .forestBackground {
     /* The image used */
-    background-image: url("Images/forestBackground.webp");
+    background-image: url("../Images/forestBackground.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -436,7 +436,7 @@ p {
 }
 
 #image-section-3 {
-    background-image: url(Images/CloudsUnityInDiversity.webp);
+    background-image: url(../Images/CloudsUnityInDiversity.webp);
     padding-bottom: 50rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -449,7 +449,7 @@ p {
 
 .parallax-3 {
     /* The image used */
-    background-image: url("Images/bannerOfWoman.webp");
+    background-image: url("../Images/bannerOfWoman.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -463,7 +463,7 @@ p {
 
 .caveBackground {
     /* The image used */
-    background-image: url("Images/CaveBackground.webp");
+    background-image: url("../Images/CaveBackground.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -476,7 +476,7 @@ p {
 }
 
 #image-section-4 {
-    background-image: url(Images/RollingHillsUnityInDiversity.webp);
+    background-image: url(../Images/RollingHillsUnityInDiversity.webp);
     padding-bottom: 50rem;
     background-position: center;
     background-repeat: no-repeat;
